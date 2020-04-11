@@ -1,0 +1,34 @@
+
+.carousel-caption{
+    margin-top: -50%;
+}
+@media screen and (max-width: 560px) {
+    #carouselExampleCaptions{
+        margin-bottom: 10%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    #carouselExampleCaptions{
+        margin-bottom: 6% !important;
+        margin-top: 3% !important;
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #carouselExampleCaptions{
+        width: 900px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #carouselExampleCaptions{
+        width: 80%;
+        height: 550px;
+    }
+    .carousel-inner{
+        height: 550px;
+    }
+}

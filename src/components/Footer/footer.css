@@ -1,0 +1,157 @@
+.footer{
+    width: 100%;
+    height: 374px;
+    background-color: #F6F6F6;
+    bottom: 0;
+}
+
+
+li{
+    list-style: none;
+}
+
+/* .footer2{
+    height: 50px;
+    background-color: #000080;
+    width: 100% !important;
+} */
+
+.add1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-top: 40px;
+}
+h4{
+    font-size: 15px;
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer{
+        height: 250px;
+    }
+    .add1{
+        font-size: 15px;
+        font-family: 'Cabin', sans-serif;
+        margin-top: 60px;
+    }
+    .h4-footer{
+        font-size: 20px;
+        color: black;
+        position: absolute;
+        margin-top: 30px;
+    }
+    .h3-footer{
+        font-size: 13px;
+        color: black;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+    .add2{
+        font-size: 15px;
+        font-family: 'Cabin', sans-serif;
+        margin-top: 80px;
+        color: black;
+    }
+  
+    .h4-footer2{
+        font-size: 20px;
+        color:black;
+        position: absolute;
+        margin-top: 50px;
+    }
+    .social-links{
+        margin-top: 4% !important;
+    }
+    .social11,.social22,.social33{
+        width: 30px;
+        height: 30px;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    /* .mjlogo{
+        width: 150px;
+        height: 150px;
+        margin-top: 25px;
+    } */
+    .col-md-3{
+        margin: 0 auto;
+    }
+    .copyright{
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    .row12{
+        margin-left: 10px;
+    }
+    .footer-email{
+        font-size: 15px;
+        margin-top: 10px; 
+    }
+}
+@media screen and (min-width: 992px) {
+  .add2{
+      margin-top: 100px;
+  }
+  .copyright{
+      margin-left: 20%;
+  }
+  .h3-footer{
+      margin-left: 17%;
+  }
+  .input-group{
+      width: 260px;
+      border: none;
+      border-radius: 0px !important;
+      margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+   
+    .add1,.add{
+        font-size: 15px;
+    }
+    .h4-footer{
+        font-size: 19px;
+    }
+    
+}
+
+@media screen and (max-width: 560px) {
+ 
+    .footer{
+        height: 100%;
+    }
+  
+   .add2{
+       color: white;
+   }
+    .btn3{
+        margin-left: -215px;
+        margin-top: 0% !important;
+    }
+    .footer-bottom{
+        margin-top: -10px;
+        height: 60px;
+    }
+    .social11,.social22,.social33{
+        width: 40px;
+        height: 40px;
+    }
+
+   
+    .social-links{
+        margin-top: 5% !important;
+
+        height: 100px;
+    }
+    .h4-footer{
+        font-size: 20px;
+    }
+
+}  

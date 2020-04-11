@@ -1,0 +1,72 @@
+.navbar li a{
+    color: white !important;
+    font-size: 20px;
+    font-family: Poppins;
+}
+.navbar li a:hover{
+    color: black !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.navbar{
+  background: #307672;
+
+}
+.navbar {
+  min-height: 82px;
+}
+.navbar-brand {
+  padding: 0 15px;
+  height: 90px;
+  line-height: 90px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+  
+
+
+.dropdown-menu{
+    border: 1px solid white;
+    background-color: #307672;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+
+.mjlogo{
+  margin-left: 30%;
+}
+
+@media screen and (max-width: 560px) {
+  .mjlogo{
+    margin-left: 0%;
+  }
+}
+
+
+
+  @media screen and (min-width: 992px) {
+    .navbar li a{
+        color: white !important;
+        font-size: 18px;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+
+  }
+  @media screen and (min-width: 1200px) {
+   
+      .navbar li a{
+        color: white !important;
+        font-size: 20px;
+    }
+    .navbar li{
+      margin-left: -3%;
+    }
+  }
+
