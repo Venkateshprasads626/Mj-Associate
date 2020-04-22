@@ -4,7 +4,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Carousel from '../../components/Carousel'
 import Cards from '../../components/Cards'
-import Mapimage from '../../Images/Mapimage.png'
+import Mapimage1 from '../../Images/Mapimage1.png'
 import logo1 from '../../Images/logo1.png'
 import logo2 from '../../Images/logo2.png'
 import logo3 from '../../Images/logo3.png'
@@ -40,7 +40,7 @@ class Home extends Component{
                             <Cards />
                         </div>
                         <div className="Clients-sections">
-                            <h1 style={{fontFamily: "Poppins", letterSpacing: "5px"}}>CLIENTS</h1>
+                            <h1 style={{fontFamily: "Poppins", letterSpacing: "5px"}} className="client-header">CLIENTS</h1>
                             <div className="wrapper">
                             <div class="slider1">
                                  <div class="slide1">
@@ -56,7 +56,7 @@ class Home extends Component{
                             </div>
                         </div>
                         <div className="">
-                            <img src={Mapimage} className="mapImage"/>
+                            <img src={Mapimage1} className="mapImage"/>
                         </div>
                     </div>
                 <Footer />

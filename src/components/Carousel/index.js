@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import './carousel.css';
-import bannerimage1 from '../../Images/bannerimage1.jpg'
-import bannerimage3 from '../../Images/bannerimage3.jpg'
-import bannerimage2 from '../../Images/bannerimage2.jpg'
+import baner1 from '../../Images/baner1.svg'
+import baner2 from '../../Images/banner2.jpg'
+import banner5 from '../../Images/banner5.jpg'
+import Mapimage1 from '../../Images/Mapimage1.png'
 
 
 class Carousel extends Component{
@@ -16,24 +17,27 @@ class Carousel extends Component{
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src={bannerimage1} class="d-block w-100" alt="..." />
+                    <img src={baner1} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                       
                     </div>
                     </div>
                     <div class="carousel-item">
-                    <img src={bannerimage3} class="d-block w-100" alt="..." />
+                    <img src={baner2} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                       
                     </div>
                     </div>
                     <div class="carousel-item">
-                    <img src={bannerimage2} class="d-block w-100" alt="..." />
+                    <img src={banner5} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={Mapimage1} class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                       
                     </div>
                     </div>
                 </div>
