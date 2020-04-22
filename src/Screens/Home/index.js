@@ -4,6 +4,18 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Carousel from '../../components/Carousel'
 import Cards from '../../components/Cards'
+import Mapimage from '../../Images/Mapimage.png'
+import logo1 from '../../Images/logo1.png'
+import logo2 from '../../Images/logo2.png'
+import logo3 from '../../Images/logo3.png'
+import logo4 from '../../Images/logo4.png'
+import logo5 from '../../Images/logo5.png'
+
+
+
+
+
+
 
 class Home extends Component{
     render() {
@@ -28,7 +40,23 @@ class Home extends Component{
                             <Cards />
                         </div>
                         <div className="Clients-sections">
-                            <h1>this is client section</h1>
+                            <h1 style={{fontFamily: "Poppins", letterSpacing: "5px"}}>CLIENTS</h1>
+                            <div className="wrapper">
+                            <div class="slider1">
+                                 <div class="slide1">
+                                    <img src={logo1} />
+                                    <img src={logo2} />
+                                    <img src={logo3} />
+                                    <img src={logo4} />
+                                    <img src={logo5} />
+                                    <img src={logo4} />
+                                    <img src={logo2} />
+                                </div> 
+                            </div>
+                            </div>
+                        </div>
+                        <div className="">
+                            <img src={Mapimage} className="mapImage"/>
                         </div>
                     </div>
                 <Footer />

@@ -42,7 +42,7 @@ const Footer = props =>(
             </div>
             <p className="footer-email">E-mail:projects@mjassociates.in</p>
         </div>
-        <div className="col-md-4 mt-md-0 mt-4">
+        <div className="col-md-4 mt-md-0 mt-4 address">
             <p className="">
               #45, 1st floor,<br/>
               5th Cross, 8th Main Road<br/>

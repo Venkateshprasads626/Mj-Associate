@@ -27,15 +27,17 @@ class Header extends Component{
             <a className="nav-link" href="/">Home</a>
         </li>
         <li className="nav-item dropdown">
-            <Link to="/Aboutus" className="nav-link">About Us</Link>
+            <Link to="#" className="nav-link">About Us</Link>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Vission</a>
-                    <a class="dropdown-item" href="#">Mission</a>
-                    <a class="dropdown-item" href="#">Code of Ethics</a>
+                    <Link to="Aboutus/About" className="dropdown-item">About Us</Link>
+                    <Link  to="/Aboutus/Vissionpage" className="dropdown-item">Vision</Link>
+                    <Link  to="/Aboutus/Mission" className="dropdown-item">Mission</Link>
+                    <Link  to="/Aboutus/Codeofethics" className="dropdown-item">Code Of Ethics</Link>
+            
                 </div> 
         </li>
         <li className="nav-item">
-            <Link to="/Whatwedo" className="nav-link" >Services</Link>
+            <Link to="/Services" className="nav-link" >Services</Link>
         </li>
         <li className="nav-item ">
             <Link to="/Gallery" className="nav-link">Gallery</Link>

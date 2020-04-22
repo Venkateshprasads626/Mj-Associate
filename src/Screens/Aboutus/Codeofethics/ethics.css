@@ -1,0 +1,18 @@
+.ethics-header{
+    font-family: Poppins;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.ethics-text{
+    font-family: Poppins;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 1200px) {
+    .ethics-text{
+        font-size: 25px;
+    }
+}

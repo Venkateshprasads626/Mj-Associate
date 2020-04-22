@@ -139,19 +139,18 @@ h4{
         margin-top: -10px;
         height: 60px;
     }
-    .social11,.social22,.social33{
-        width: 40px;
-        height: 40px;
+    .row12{
+        text-align: start;
+        margin-left: 5%;
     }
-
-   
-    .social-links{
-        margin-top: 5% !important;
-
-        height: 100px;
+    .footer-email{
+        text-align: start;
+        margin-left: 5%;
+        margin-top: 3%;
     }
-    .h4-footer{
-        font-size: 20px;
-    }
+  .address{
+      text-align: start;
+      margin-left: 5%;
+  }
 
 }  

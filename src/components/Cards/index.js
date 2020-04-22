@@ -18,7 +18,7 @@ class Cards extends Component{
                             <img src={image1} class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Bulk Drugs</h5>
-                                    <p class="card-text" style={{textAlign: "start"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text" style={{textAlign: "start"}}>We provide total design package for setting up a finished facility</p>
                                     <a href="#" class="btn">Read more</a>
                                 </div>
                         </div>
@@ -26,7 +26,7 @@ class Cards extends Component{
                             <img src={image2} class="card-img-top" alt="..." />
                             <div class="card-body">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Formulation</h5>
-                                    <p class="card-text" style={{textAlign: "start"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text" style={{textAlign: "start"}}>We have total expertise in facility design for manufacturing plants.</p>
                                     <a href="#" class="btn">Read more</a>
                                 </div>
                         </div>
@@ -34,7 +34,7 @@ class Cards extends Component{
                             <img src={image3} class="card-img-top" alt="..." />
                             <div class="card-body">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Clean Rooms</h5>
-                                    <p class="card-text" style={{textAlign: "start"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text" style={{textAlign: "start"}}>This is the core of all activities connected with Pharma facility design.</p>
                                     <a href="#" class="btn">Read more</a>
                                 </div>
                         </div>
@@ -47,15 +47,15 @@ class Cards extends Component{
                             <img src={image4} class="card-img-top" alt="..." />
                             <div class="card-body">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>R & D Labs</h5>
-                                    <p class="card-text" style={{textAlign: "start"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text" style={{textAlign: "start"}}>We have to our credit successful completion of R and D facilities</p>
                                     <a href="#" class="btn">Read more</a>
                                 </div>
                         </div>
                         <div class="card">
                             <img src={image5} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                    <h5 class="card-title"  style={{textAlign: "start"}}>Food & COnfectionery</h5>
-                                    <p class="card-text" style={{textAlign: "start"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title"  style={{textAlign: "start"}}>Food & Confectionery</h5>
+                                    <p class="card-text" style={{textAlign: "start"}}>We have to our credit the design of such facility for many MNC and local clients</p>
                                     <a href="#" class="btn">Read more</a>
                                 </div>
                         </div>
@@ -63,7 +63,7 @@ class Cards extends Component{
                             <img src={image6} class="card-img-top" alt="..." />
                             <div class="card-body">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Office & Interiors</h5>
-                                    <p class="card-text" style={{textAlign: "start"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text" style={{textAlign: "start"}}>Through our associate Architects, we take up such projects, mainly as part of a total Pharma support facility.</p>
                                     <a href="#" class="btn">Read more</a>
                                 </div>
                         </div>
@@ -75,3 +75,4 @@ class Cards extends Component{
 }
 
 export default Cards
+
