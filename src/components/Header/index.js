@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './header.css'
 import { Link } from 'react-router-dom'
-import mjlogo from '../../Images/mjlogo.svg'
+import mjlogo11 from '../../Images/mjlogo11.svg'
 
 class Header extends Component{
 
@@ -14,7 +14,7 @@ class Header extends Component{
     <nav class="navbar navbar-expand-lg navbar-dark ">
         
             <a class="navbar-brand" href="/">
-                <img src={mjlogo} className="mjlogo" />
+                <img src={mjlogo11} className="mjlogo" />
             </a>
         
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

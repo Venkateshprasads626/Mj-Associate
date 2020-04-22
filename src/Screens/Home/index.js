@@ -34,7 +34,7 @@ class Home extends Component{
                                 Dosage Forms, Bulk Drugs or API’s and Intermediates, Pilot Plants and
                                 Research Laboratories and Confectionery and Food.
                             </p>
-                            <button type="button" className="btn" style={{backgroundColor: "#307672", color: "white"}}>Read more</button>
+                           <a href="/Aboutus/About"><button type="button" className="btn" style={{backgroundColor: "#307672", color: "white"}}>Read more</button></a>
                         </div>
                         <div>
                             <Cards />
@@ -56,7 +56,7 @@ class Home extends Component{
                             </div>
                         </div>
                         <div className="">
-                            <img src={Mapimage1} className="mapImage"/>
+                        <a href="https://www.google.com/maps/place/M+J+Associates/@12.994164,77.5889978,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae1643e66f3dad:0xd49ca115aa423bae!8m2!3d12.994164!4d77.5911865" target="_blank"> <img src={Mapimage1} className="mapImage"/></a>
                         </div>
                     </div>
                 <Footer />

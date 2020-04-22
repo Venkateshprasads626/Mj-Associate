@@ -45,10 +45,17 @@
 @media screen and (max-width: 560px) {
   .mjlogo{
     margin-left: 0%;
+    width: 90px;
+    height: 80px;
   }
 }
 
-
+@media screen and (min-width: 768px) {
+  .mjlogo{
+   width: 120px;
+   height: 90px;
+  }
+}
 
   @media screen and (min-width: 992px) {
     .navbar li a{

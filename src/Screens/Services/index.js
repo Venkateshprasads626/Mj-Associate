@@ -15,7 +15,7 @@ class Services extends Component{
             <div id="site-wrapper">
                 <Header />
                     <div id="page-content1">
-                        <h1 className="mission-header">SERVICES</h1>
+                        <h1 className="mission-header">SERVICES WE OFFER</h1>
                         <div className="card1">
                             <div className="left-img">
                                 <img src={image1} alt="" className="profile-image"/>

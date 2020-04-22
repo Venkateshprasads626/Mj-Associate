@@ -16,7 +16,7 @@ const Footer = props =>(
       
         <div className="col-md-4 mt-md-0 mt-4">
            <img src={mjlogo} className="mjlogo" alt="Mj Logo" />
-           <p className="copyright">&copy; 2016 Created by Rushbee Studios</p>
+           <p className="copyright">&copy; 2020 Created by Rushbee Studios</p>
 
            <h3 className="h3-footer">SUBSCRIBE TO OUR NEWS</h3>
            <div className="input-group mb-3">
