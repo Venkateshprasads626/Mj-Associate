@@ -12,6 +12,7 @@ import logo4 from '../../Images/logo4.png'
 import logo5 from '../../Images/logo5.png'
 
 
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -34,7 +35,7 @@ class Home extends Component{
                                 Dosage Forms, Bulk Drugs or API’s and Intermediates, Pilot Plants and
                                 Research Laboratories and Confectionery and Food.
                             </p>
-                           <a href="/Aboutus/About"><button type="button" className="btn" style={{backgroundColor: "#307672", color: "white"}}>Read more</button></a>
+                           <NavLink to="/Aboutus/About"><button type="button" className="btn" style={{backgroundColor: "#307672", color: "white"}}>Read more</button></NavLink>
                         </div>
                         <div>
                             <Cards />

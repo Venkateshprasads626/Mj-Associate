@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './cards.css'
+
+import { NavLink } from 'react-router-dom'
 import image1 from '../../Images/image1.svg'
 import image2 from '../../Images/image2.svg'
 import image3 from '../../Images/image3.svg'
@@ -7,6 +9,7 @@ import image4 from '../../Images/image4.svg'
 import image5 from '../../Images/image5.svg'
 import image6 from '../../Images/image6.svg'
 import Steps from '../../Images/Steps.svg';
+
 
 class Cards extends Component{
     render() {
@@ -20,7 +23,7 @@ class Cards extends Component{
                                     <div className="card-body-text">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Bulk Drugs</h5>
                                     <p className="card-text" style={{textAlign: "start"}}>We provide total design package for setting up a finished facility</p>
-                                    <a href="/Services" class="btn btn1">Read more</a>
+                                    <NavLink to="/Services" class="btn btn1">Read more</NavLink>
                                     </div>
                                 </div>
                         </div>
@@ -30,7 +33,7 @@ class Cards extends Component{
                                 <div className="card-body-text">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Formulation</h5>
                                     <p className="card-text" style={{textAlign: "start"}}>We have total expertise in facility design for manufacturing plants.</p>
-                                    <a href="/Services" class="btn btn1">Read more</a>
+                                    <NavLink to="/Services" class="btn btn1">Read more</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +43,7 @@ class Cards extends Component{
                             <div className="card-body-text">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Clean Rooms</h5>
                                     <p className="card-text" style={{textAlign: "start"}}>This is the core of all activities connected with Pharma facility design.</p>
-                                    <a href="/Services" class="btn btn2">Read more</a>
+                                    <NavLink to="/Services" class="btn btn2">Read more</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +58,7 @@ class Cards extends Component{
                             <div className="card-body-text">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>R & D Labs</h5>
                                     <p className="card-text" style={{textAlign: "start"}}>We have to our credit successful completion of R and D facilities</p>
-                                    <a href="/Services" class="btn btn1">Read more</a>
+                                    <NavLink to="/Services" class="btn btn1">Read more</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +68,7 @@ class Cards extends Component{
                             <div className="card-body-text">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Food & Confectionery</h5>
                                     <p className="card-text" style={{textAlign: "start"}}>We have to our credit the design of such facility for many MNC and local clients</p>
-                                    <a href="/Services" class="btn btn2">Read more</a>
+                                    <NavLink to="/Services" class="btn btn2">Read more</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +78,7 @@ class Cards extends Component{
                             <div className="card-body-text">
                                     <h5 class="card-title"  style={{textAlign: "start"}}>Office & Interiors</h5>
                                     <p className="card-text" style={{textAlign: "start"}}>Through our associate Architects, we take up such projects, mainly as part of a total Pharma support facility.</p>
-                                    <a href="Services" class="btn">Read more</a>
+                                    <NavLink to="Services" class="btn">Read more</NavLink>
                                 </div>
                             </div>
                         </div>
